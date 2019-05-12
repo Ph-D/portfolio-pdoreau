@@ -22,15 +22,23 @@ class About extends React.Component {
               <div className="fadein">
                 <p>My name is Philippe Doreau and I am a web developer. </p>
 
-                <p>I learned coding by making website, first as a web designer, and then as a web developer.
-                To validate my skills I obtained a software developer professionnal degrees and coding certificates.</p>
-                In that way I learned to use different Frameworks, Languages, or good pratices, like React.js, my favorite one.
+                <p>I learned coding by making website. First as a web designer, and then as a developer.</p>
+
+                I have a Professionnal degree in software programming and several
+                  years of experience working on a wide range of technologies
+                  and projects from Web applications to modern mobile
+                  applications in React, Angular, Native Script, Ionic and Node.
 
                 <p>Currently I'm working in a big french tech company. Here I have acquired team working and technical knowledge.</p>
 
-                <p>Today I'm still looking for opportunities which will allow me to work on fun project. </p>
-                <p>So if my profile can interest you, please contact me!</p>
+                <p>
+                  Languages: • Proficient in: JavaScript/ES6, Java, HTML, CSS,
+                  SQL. Frameworks/Libraries: • React JS, Angular, Redux,
+                  Node JS, Express JS, JQuery, Next JS, SASS. Tools: • Webpack,
+                  Babel, Jest, Enzyme, Docker DB: MongoDB, MySQL
+                </p>
 
+                <p>UI/UX skills</p>
 
               </div>
             </Col>

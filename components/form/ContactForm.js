@@ -27,15 +27,15 @@ const ContactForm = ({ initialValues, onSubmit, error }) => (
         <Form>
           <Field type="text"
             name="name"
-            label="Name"
+            label="Your name"
             component={PortInput} />
           <Field type="email"
             name="email"
-            label="Email"
+            label="Your email"
             component={PortInput} />
           <Field type="textarea"
             name="message"
-            label="Message"
+            label="Your message"
             component={PortInput} />
 
           {error &&
