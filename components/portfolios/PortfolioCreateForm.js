@@ -57,7 +57,6 @@ const PortfolioCreateForm = ({ initialValues, onSubmit, error }) => (
           <Field type="url"
             name="link"
             label="Link"
-            canBeDisabled={true}
             component={PortInput} />
           <Field name="startDate"
             label="Start Date"

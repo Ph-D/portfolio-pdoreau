@@ -90,6 +90,7 @@ class Contact extends React.Component {
         <style jsx>
           {`
             @import url("https://use.fontawesome.com/releases/v5.5.0/css/all.css");
+            @import url("https://fonts.googleapis.com/icon?family=Material+Icons");
           `}
         </style>
       </BaseLayout>
