@@ -1,6 +1,6 @@
 import React from 'react';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
-import { Button, Alert } from 'reactstrap';
+import { Button, Alert, Input } from 'reactstrap';
 import PortInput from '../form/PortInput';
 import PortDate from '../form/PortDate';
 
@@ -57,13 +57,11 @@ const PortfolioCreateForm = ({ initialValues, onSubmit, error }) => (
           <Field type="url"
             name="link"
             label="Link"
-            canBeDisabled={true}
             component={PortInput} />
           <Field name="startDate"
             label="Start Date"
             initialDate={initialValues.startDate}
             component={PortDate} />
-
           <Field name="endDate"
             label="End Date"
             canBeDisabled={true}

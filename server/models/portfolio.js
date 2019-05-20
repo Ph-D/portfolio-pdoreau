@@ -9,7 +9,7 @@ const portfolioSchema = new Schema({
   company: setStringType(256),
   location: setStringType(128),
   position: setStringType(256),
-  link: setStringType(256),
+  link: String,
   description: setStringType(2048),
   startDate: { type: Date, required: true },
   endDate: Date
